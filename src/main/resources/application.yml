@@ -1,0 +1,19 @@
+spring:
+  devtools:
+    livereload:
+      enabled: true
+
+  servlet:
+    multipart:
+      max-file-size: -1
+      max-request-size: -1
+
+logging:
+  level:
+    root: debug
+
+tus:
+  server:
+    setting:
+      path: "/Users/juyoungkang/Desktop/tmp/"
+      expiration: 86400 #24*60*60
